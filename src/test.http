@@ -1,0 +1,28 @@
+GET http://localhost/eDelegate/Pofile.php?Operation=EditProfile&token=&UserName=omar&UserName=omar&Password=123&Name=Omar%20Dweikat&Mobile=0562666705&Phone=092328843&Email=omardw1@hotmail.com&MainProfile=1&CorpName=null
+###
+GET http://localhost/eDelegate/Pofile.php?Operation=GetProfile&token=wKr8QRCLVRDMG1hluz433darzlw6cmSHYbDqpByaVTBcSD0DkTHdkOEnkz5dCmtaWTM7JvWbdVNzW38M6BGqMXHIeMVljuFlca7l&UserName=omar
+###
+GET http://localhost/eDelegate/GuestItem.php?Operation=getItem&ItemName=Dell laptop
+###
+GET http://localhost/eDelegate/GetAllCat.php?Operation=Categories
+###
+GET http://localhost/eDelegate/Item.php?Operation=getSpecs&token=jMvLq3LmgUoaqMoyrWtFZxmjjToJZNKFjyExndj9oqZxV36NVZXgIWtcUPCFyv5RrJG81u0Pb3afMhqyNKXoGtsYjgzXSR1JeuIw&catId=1
+###
+GET http://localhost/eDelegate/Pofile.php?Operation=EditProfile&token=iUV1CgtacIMFj1U3OqJig3uoV2PF7rOmfm3PN6N8OZncS9HzzwKONzz9Y26033dlmh8Bs2gnpeGPq9QhTJjsWYVMAq1kwEa1CoTm&UserName=omar
+###
+
+GET http://localhost/eDelegate/Item.php?Operation=getItem&token=PSKzGxBWAVXBQDFn2VOrdnmtv3lSA0qHdNKxrpcbaVfx0ppvSVc8wYTQXxJCPw9XsZ426Ho0XcNWkExSgcuBq6wFocSyAT2rVdW3&ItemName=Dell%20laptop
+###
+GET http://localhost/eDelegate/InsertItems.php?ss=sss
+###
+GET http://localhost/eDelegate/InsertItems.php?Operation=InsertItem&token=qyyyiygeEd8aT4eXvHqv3WFnEUEjCjY4apDc3hYcrEEtbZuF2bD0CWho9zfKzQclyrCsbOlbc5StvZMCSFJ7oXNFX71cF43Cv38U&ItemName=lolibob&Price=10&Description=dddd&SrcFile=./Dell.png&catId=1&UserName=omar&specName0=Contents&specValue0=s&specName1=Exp_Date&specValue1=s&specName2=Net_Weight&specValue2=s&specCount=3
+###
+GET http://localhost/eDelegate/EditItem.php?Operation=DisableItem&token=zxuNvUgXoGZnpnSJjkOBEm5ynOqxkoqIPwgYoGzVKFq4dvaiVdjkAv8DL67OEUbSvHdi0Gml4q1PE0BW0K4i26lU8Tdl67PG6yLe&ItemName=lolibob
+###
+GET http://localhost/eDelegate/Login.php?Operation=Login&UserName=omar&Password=123
+###
+GET http://localhost/eDelegate/Login.php?Operation=SignUp&UserName=omar&Password=123&Name=omar&Mobile=0562666705&Phone=092328843&Email=omardw1@hotmail.com&MainProfile=1&CorpName=eDelegate
+###
+GET http://localhost/eDelegate/ItemPerCat.php?Operation=GetItems&token=Ab8NcnSKx1qruY1E5FLM9f1ZkEvpYJOSr0sPVnbYNdgG07VTzkwL1eZJRdyh8ZMd8DQI0GPeZmlzRGwr8twZ3PLePuD90m8xN1zl&catName=Phones
+###
+GET http://localhost/eDelegate/GuestItemPerCat.php?Operation=GetItems&catName=Phones

@@ -1,0 +1,95 @@
+/* Place your extensions here to make migration to a new release easier. */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color:#191919;
+  background-color: inherit;
+  font-family: inherit;
+  padding-top:0;
+  margin-bottom:5px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #2879fe;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.p-radiobutton .p-radiobutton-box.p-highlight .p-radiobutton-icon {
+  background-color: #007ad9 !important;
+}
+
+d.p-radiobutton-label {
+  margin: 0 0.5em 0 0 !important;
+}
+
+.p-radiobutton .p-radiobutton-box.p-highlight {
+  border-color: #007ad9;
+  background-color: #ffffff !important;
+  color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .content {
+      width:1170px;
+      margin:auto;
+      margin-top:75px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  .content {
+      width: 970px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .content {
+      width: 750px;
+  }
+}

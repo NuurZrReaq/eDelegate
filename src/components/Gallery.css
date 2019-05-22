@@ -1,0 +1,28 @@
+.Items{
+    width:100%;
+    margin-bottom:15px;
+
+}
+.Categories{
+    width:90%;
+    margin-bottom:50px;
+    margin-left:15px;
+}
+.btnCategory{
+    width:10% !important;
+    float:left !important;
+    margin-left:1% !important;
+    height:35px;
+
+}
+.btnAll{
+    width:6% !important;
+    float:left !important;
+    margin-left:2% !important;
+    margin-bottom:50px;
+    height:35px;
+
+}
+.btnItem{
+    margin-bottom:75px;
+}

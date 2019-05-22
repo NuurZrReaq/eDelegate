@@ -1,0 +1,118 @@
+.itemImg {
+    width: 100%;
+    height: 400px;
+}
+
+.divItemImg {
+    width: 35%;
+    float: left;
+    margin-bottom:30px;
+}
+
+.divItemBrief {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+
+.right {
+    float: right;
+}
+
+.minimize {
+    float: left;
+    width: 40%;
+    margin-right: 0;
+}
+
+.maximize {
+    float: left;
+    width: 90%;
+}
+
+.divNavBar{
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+}
+
+.u{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+.l{
+    float: left;
+}
+.anch{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    margin-left:15px;
+}
+.separator{
+    border-right:1px solid #444444;
+    height:20px;
+    float:left;
+    margin-top:18px
+}
+.anch:hover {
+    color: blue;
+}
+.divDetails{
+    width:80%;
+    margin-left:12%;
+    float:left
+}
+.divContact{
+    
+    width:80%;
+    margin-left:12%;
+    float:left
+}
+.divOrder{
+    
+    width:80%;
+    margin-left:12%;
+    float:left
+}
+
+.divSpecs{
+    
+    width:80%;
+    margin-left:12%;
+    float:left;
+    overflow:auto;
+    height: 300px;
+
+}
+
+.divBtnEdit{
+    width: 20%;
+    margin-bottom:25px;
+    float:left
+
+}
+
+.divBtnDelete{
+    width: 20%;
+    margin-bottom:25px;
+    float:left
+}
+
+.divButtons{
+    width:100%;
+}
+
+.btnDelete , .btnEdit{
+	width:80% !important;
+    float:left !important;
+    margin-left:2% !important;
+    margin-bottom:50px;
+    height:35px;
+}
